@@ -1,0 +1,785 @@
+namespace = GE_obsessions_events
+
+GE_obsessions_events.1 = { # Add Cultural Obsessions
+	type = country_event
+	hidden = yes
+	fire_only_once = yes
+	duration = 1
+	
+	trigger = {
+		game_date = 1836.1.1
+	}
+	
+	immediate = {
+		cu:north_german = {
+			add_cultural_obsession = beer
+		}
+		cu:south_german = {
+			add_cultural_obsession = beer
+		}
+		cu:swiss = {
+			add_cultural_obsession = beer
+			add_cultural_obsession = wine
+		}
+		cu:ashkenazi = {
+			add_cultural_obsession = beer
+		}
+		cu:czech = {
+			add_cultural_obsession = beer
+		}
+		cu:greek = {
+			add_cultural_obsession = dairy
+		}
+		cu:bulgarian = {
+			add_cultural_obsession = dairy
+		}
+		cu:assamese = {
+			add_cultural_obsession = dairy
+		}
+		cu:bengali = {
+			add_cultural_obsession = dairy
+		}
+		cu:bihari = {
+			add_cultural_obsession = dairy
+		}
+		cu:manipuri = {
+			add_cultural_obsession = dairy
+		}
+		cu:nepali = {
+			add_cultural_obsession = dairy
+		}
+		cu:oriya = {
+			add_cultural_obsession = dairy
+		}
+		cu:sinhala = {
+			add_cultural_obsession = dairy
+		}
+		cu:avadhi = {
+			add_cultural_obsession = dairy
+		}
+		cu:kanauji = {
+			add_cultural_obsession = dairy
+		}
+		cu:panjabi = {
+			add_cultural_obsession = dairy
+		}
+		cu:kashmiri = {
+			add_cultural_obsession = dairy
+		}
+		cu:gujarati = {
+			add_cultural_obsession = dairy
+		}
+		cu:marathi = {
+			add_cultural_obsession = dairy
+		}
+		cu:sindi = {
+			add_cultural_obsession = dairy
+		}
+		cu:rajput = {
+			add_cultural_obsession = dairy
+		}
+		cu:kannada = {
+			add_cultural_obsession = dairy
+		}
+		cu:malayalam = {
+			add_cultural_obsession = dairy
+		}
+		cu:tamil = {
+			add_cultural_obsession = dairy
+		}
+		cu:telegu = {
+			add_cultural_obsession = dairy
+		}
+		cu:french = {
+			add_cultural_obsession = porcelain
+		}
+		cu:breton = {
+			add_cultural_obsession = wine
+		}
+		cu:franco_canadian = {
+			add_cultural_obsession = wine
+		}
+		cu:corsican = {
+			add_cultural_obsession = wine
+		}
+		cu:wallonian = {
+			add_cultural_obsession = wine
+		}
+		cu:russian = {
+			add_cultural_obsession = liquor
+			add_cultural_obsession = carpet
+			add_cultural_obsession = tea
+			add_cultural_obsession = sugar
+		}
+		cu:byelorussian = {
+			add_cultural_obsession = liquor
+			add_cultural_obsession = carpet
+			add_cultural_obsession = tea
+			add_cultural_obsession = sugar
+		}
+		cu:ukrainian = {
+			add_cultural_obsession = liquor
+			add_cultural_obsession = carpet
+			add_cultural_obsession = tea
+			add_cultural_obsession = sugar
+		}
+		cu:yankee = {
+			add_cultural_obsession = sugar
+			add_cultural_obsession = sweets
+			add_cultural_obsession = tea
+			add_cultural_obsession = beer
+			add_cultural_obsession = fish
+			add_cultural_obsession = meat
+		}
+		cu:dixie = {
+			add_cultural_obsession = sugar
+			add_cultural_obsession = sweets
+			add_cultural_obsession = tea
+			add_cultural_obsession = liquor
+			add_cultural_obsession = fish
+			add_cultural_obsession = meat
+		}
+		cu:cajun = {
+			add_cultural_obsession = sugar
+			add_cultural_obsession = sweets
+			add_cultural_obsession = tea
+			add_cultural_obsession = wine
+			add_cultural_obsession = fish
+			add_cultural_obsession = meat
+		}
+		cu:british = {
+			add_cultural_obsession = sugar
+			add_cultural_obsession = sweets
+			add_cultural_obsession = tea
+			add_cultural_obsession = beer
+			add_cultural_obsession = fish
+		}
+		cu:scottish = {
+			add_cultural_obsession = sugar
+			add_cultural_obsession = sweets
+			add_cultural_obsession = tea
+			add_cultural_obsession = liquor
+		}
+		cu:welsh = {
+			add_cultural_obsession = sugar
+			add_cultural_obsession = sweets
+			add_cultural_obsession = tea
+			add_cultural_obsession = beer
+			add_cultural_obsession = liquor
+		}
+		cu:manchu = {
+			add_cultural_obsession = tea
+		}
+		cu:han = {
+			add_cultural_obsession = tea
+		}
+		cu:hakka = {
+			add_cultural_obsession = tea
+		}
+		cu:min = {
+			add_cultural_obsession = tea
+		}
+		cu:miao = {
+			add_cultural_obsession = tea
+		}
+		cu:yue = {
+			add_cultural_obsession = tea
+		}
+		cu:yi = {
+			add_cultural_obsession = tea
+		}
+		cu:zhuang = {
+			add_cultural_obsession = tea
+		}
+		cu:korean = {
+			add_cultural_obsession = tea
+		}
+		cu:japanese = {
+			add_cultural_obsession = tea
+		}
+		cu:vietnamese = {
+			add_cultural_obsession = tea
+		}
+		cu:pashtun = {
+			add_cultural_obsession = carpet
+		}
+		cu:persian = {
+			add_cultural_obsession = carpet
+		}
+		cu:turkish = {
+			add_cultural_obsession = carpet
+			add_cultural_obsession = coffee
+		}
+		cu:maghrebi = {
+			add_cultural_obsession = tea
+			add_cultural_obsession = coffee
+		}
+		cu:misri = {
+			add_cultural_obsession = tea
+			add_cultural_obsession = coffee
+		}
+		cu:mashriqi = {
+			add_cultural_obsession = tea
+			add_cultural_obsession = coffee
+		}
+		cu:bedouin = {
+			add_cultural_obsession = tea
+			add_cultural_obsession = coffee
+		}
+		cu:berber = {
+			add_cultural_obsession = tea
+			add_cultural_obsession = coffee
+		}
+		cu:somali = {
+			add_cultural_obsession = tea
+			add_cultural_obsession = coffee
+		}
+		cu:sudanese = {
+			add_cultural_obsession = tea
+			add_cultural_obsession = coffee
+		}
+		cu:yemenite = {
+			add_cultural_obsession = tea
+			add_cultural_obsession = coffee
+		}
+		cu:irish = {
+			add_cultural_obsession = beer
+			add_cultural_obsession = tea
+		}
+		cu:mongol = {
+			add_cultural_obsession = tea
+			add_cultural_obsession = dairy
+			add_cultural_obsession = liquor
+		}
+		cu:kalmyk = {
+			add_cultural_obsession = tea
+			add_cultural_obsession = dairy
+		}
+		cu:tuvan = {
+			add_cultural_obsession = tea
+			add_cultural_obsession = dairy
+			add_cultural_obsession = liquor
+		}
+		cu:tatar = {
+			add_cultural_obsession = tea
+			add_cultural_obsession = dairy
+		}
+		cu:uzbek = {
+			add_cultural_obsession = tea
+			add_cultural_obsession = dairy
+		}
+		cu:kazak = {
+			add_cultural_obsession = tea
+			add_cultural_obsession = dairy
+			add_cultural_obsession = liquor
+		}
+		cu:kirgiz = {
+			add_cultural_obsession = tea
+			add_cultural_obsession = dairy
+		}
+		cu:tajik = {
+			add_cultural_obsession = tea
+			add_cultural_obsession = dairy
+		}
+		cu:uighur = {
+			add_cultural_obsession = tea
+			add_cultural_obsession = dairy
+		}
+		cu:hazara = {
+			add_cultural_obsession = tea
+			add_cultural_obsession = dairy
+		}
+		cu:turkmen = {
+			add_cultural_obsession = tea
+			add_cultural_obsession = dairy
+		}
+	}
+}
+
+GE_obsessions_events.2 = { # Add Buildings
+	type = country_event
+	hidden = yes
+	fire_only_once = yes
+	duration = 1
+	
+	trigger = {
+		game_date = 1836.1.1
+	}
+	
+	immediate = {
+	s:STATE_SVEALAND={
+		region_state:SWE={
+			create_building={
+				building="building_rye_farm"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_privately_owned" "pm_tools" "pm_sugar_beets"}
+				}
+			create_building={
+				building="building_sweets_industry"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_base_sweets" "pm_hand_made_sweets_industry" "pm_no_drinks_sweets_industry" "pm_privately_owned_industry"}
+				}
+		}
+	}
+	s:STATE_SCHLESWIG_HOLSTEIN={
+		region_state:LUB={
+			create_building={
+				building="building_rye_farm"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_privately_owned" "pm_tools" "pm_sugar_beets"}
+				}
+			create_building={
+				building="building_sweets_industry"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_base_sweets" "pm_hand_made_sweets_industry" "pm_no_drinks_sweets_industry" "pm_privately_owned_industry"}
+				}
+			}	
+	}
+	s:STATE_HOME_COUNTIES={
+		region_state:GBR={
+			create_building={
+				building="building_sweets_industry"
+				level=10
+				reserves=1
+				activate_production_methods={ "pm_base_sweets" "pm_hand_made_sweets_industry" "pm_no_drinks_sweets_industry" "pm_privately_owned_industry"}
+				}
+			create_building={
+				building="building_housing"
+				level=5
+				reserves=1
+				activate_production_methods={ "pm_housing_base_tenants" "pm_housing_apartments" "pm_housing_no_palaces" "pm_housing_no_canalisation" "pm_housing_wood_heating" "pm_housing_no_electricity" "pm_privately_owned_industry"}
+				}
+			}	
+	}
+	s:STATE_EAST_ANGLIA={
+		region_state:GBR={
+			create_building={
+				building="building_housing"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_housing_base_tenants" "pm_housing_no_apartments" "pm_housing_palaces" "pm_housing_no_canalisation" "pm_housing_wood_heating" "pm_housing_no_electricity" "pm_privately_owned_industry"}
+				}
+		}
+	}
+	s:STATE_ORLEANS={
+		region_state:FRA={
+			create_building={
+				building="building_housing"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_housing_base_tenants" "pm_housing_no_apartments" "pm_housing_palaces" "pm_housing_no_canalisation" "pm_housing_wood_heating" "pm_housing_no_electricity" "pm_privately_owned_industry"}
+				}
+		}
+	}
+	s:STATE_WEST_SWITZERLAND={
+		region_state:SWI={
+			create_building={
+				building="building_rye_farm"
+				level=6
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_privately_owned" "pm_tools" "pm_sugar_beets"}
+				}
+			create_building={
+				building="building_sweets_industry"
+				level=3
+				reserves=1
+				activate_production_methods={ "pm_base_sweets" "pm_hand_made_sweets_industry" "pm_no_drinks_sweets_industry" "pm_privately_owned_industry"}
+				}
+			}	
+		}
+	s:STATE_ILE_DE_FRANCE={
+		region_state:FRA={
+			create_building={
+				building="building_sweets_industry"
+				level=3
+				reserves=1
+				activate_production_methods={ "pm_base_sweets" "pm_hand_made_sweets_industry" "pm_no_drinks_sweets_industry" "pm_privately_owned_industry"}
+				}
+			create_building={
+				building="building_housing"
+				level=3
+				reserves=1
+				activate_production_methods={ "pm_housing_base_tenants" "pm_housing_apartments" "pm_housing_no_palaces" "pm_housing_no_canalisation" "pm_housing_wood_heating" "pm_housing_no_electricity" "pm_privately_owned_industry"}
+				}
+			}	
+	}
+	s:STATE_FLANDERS={
+		region_state:BEL={
+			create_building={
+				building="building_sweets_industry"
+				level=4
+				reserves=1
+				activate_production_methods={ "pm_base_sweets" "pm_hand_made_sweets_industry" "pm_no_drinks_sweets_industry" "pm_privately_owned_industry"}
+				}
+			create_building={
+				building="building_housing"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_housing_base_tenants" "pm_housing_no_apartments" "pm_housing_no_palaces" "pm_housing_no_canalisation" "pm_housing_wood_heating" "pm_housing_no_electricity" "pm_privately_owned_industry"}
+				}
+			}	
+	}
+	s:STATE_ZEALAND={
+		region_state:DEN={
+				create_building={
+				building="building_rye_farm"
+				level=5
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_privately_owned" "pm_tools" "pm_sugar_beets"}
+				}
+			create_building={
+				building="building_sweets_industry"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_base_sweets" "pm_hand_made_sweets_industry" "pm_no_drinks_sweets_industry" "pm_privately_owned_industry"}
+				}
+			}
+	}
+	s:STATE_BRANDENBURG={
+		region_state:PRU={
+			create_building={
+				building="building_rye_farm"
+				level=5
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_privately_owned" "pm_tools" "pm_sugar_beets"}
+				}
+			create_building={
+				building="building_sweets_industry"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_base_sweets" "pm_hand_made_sweets_industry" "pm_no_drinks_sweets_industry" "pm_privately_owned_industry"}
+				}
+			create_building={
+				building="building_housing"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_housing_base_tenants" "pm_housing_no_apartments" "pm_housing_no_palaces" "pm_housing_no_canalisation" "pm_housing_wood_heating" "pm_housing_no_electricity" "pm_privately_owned_industry"}
+				}
+			}
+	}
+	s:STATE_AUSTRIA={
+		region_state:AUS={
+			create_building={
+				building="building_housing"
+				level=3
+				reserves=1
+				activate_production_methods={ "pm_housing_base_tenants" "pm_housing_no_apartments" "pm_housing_no_palaces" "pm_housing_no_canalisation" "pm_housing_wood_heating" "pm_housing_no_electricity" "pm_privately_owned_industry"}
+				}
+		}
+	}
+	s:STATE_ANDALUSIA={
+		region_state:SPA={
+			create_building={
+				building="building_sugar_plantation"
+				level=5
+				reserves=1
+				activate_production_methods={ "default_building_sugar_plantation" "pm_road_carts" "pm_privately_owned" }
+			}
+			create_building={
+				building="building_sweets_industry"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_base_sweets" "pm_hand_made_sweets_industry" "pm_no_drinks_sweets_industry" "pm_privately_owned_industry"}
+				}
+		}
+	}
+	s:STATE_PIEDMONT={
+		region_state:SAR={
+			create_building={
+				building="building_sweets_industry"
+				level=3
+				reserves=1
+				activate_production_methods={ "pm_base_sweets" "pm_hand_made_sweets_industry" "pm_no_drinks_sweets_industry" "pm_privately_owned_industry"}
+				}
+			create_building={
+				building="building_housing"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_housing_base_tenants" "pm_housing_no_apartments" "pm_housing_no_palaces" "pm_housing_no_canalisation" "pm_housing_wood_heating" "pm_housing_no_electricity" "pm_privately_owned_industry"}
+				}
+		}
+	}
+	s:STATE_LAZIO={
+		region_state:PAP={
+			create_building={
+				building="building_sweets_industry"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_base_sweets" "pm_hand_made_sweets_industry" "pm_no_drinks_sweets_industry" "pm_privately_owned_industry"}
+				}
+			create_building={
+				building="building_housing"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_housing_base_tenants" "pm_housing_no_apartments" "pm_housing_no_palaces" "pm_housing_no_canalisation" "pm_housing_wood_heating" "pm_housing_no_electricity" "pm_privately_owned_industry"}
+				}
+		}
+	}
+	s:STATE_ROMAGNA={
+		region_state:PAP={
+			create_building={
+				building="building_sweets_industry"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_base_sweets" "pm_hand_made_sweets_industry" "pm_no_drinks_sweets_industry" "pm_privately_owned_industry"}
+				}
+		}
+	}
+	s:STATE_EMILIA={
+		region_state:PAR={
+			create_building={
+				building="building_sweets_industry"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_base_sweets" "pm_hand_made_sweets_industry" "pm_no_drinks_sweets_industry" "pm_privately_owned_industry"}
+				}
+		}
+	}
+	s:STATE_VENETIA={
+		region_state:AUS={
+			create_building={
+				building="building_sweets_industry"
+				level=3
+				reserves=1
+				activate_production_methods={ "pm_base_sweets" "pm_hand_made_sweets_industry" "pm_no_drinks_sweets_industry" "pm_privately_owned_industry"}
+				}
+		}
+	}
+	s:STATE_EASTERN_THRACE={
+		region_state:TUR={
+			create_building={
+				building="building_sweets_industry"
+				level=5
+				reserves=1
+				activate_production_methods={ "pm_base_sweets" "pm_hand_made_sweets_industry" "pm_no_drinks_sweets_industry" "pm_privately_owned_industry"}
+				}
+			create_building={
+				building="building_housing"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_housing_base_tenants" "pm_housing_no_apartments" "pm_housing_no_palaces" "pm_housing_no_canalisation" "pm_housing_wood_heating" "pm_housing_no_electricity" "pm_privately_owned_industry"}
+				}
+		}
+	}
+	s:STATE_WEST_GALICIA={
+		region_state:KRA={
+			create_building={
+				building="building_sweets_industry"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_base_sweets" "pm_hand_made_sweets_industry" "pm_no_drinks_sweets_industry" "pm_privately_owned_industry"}
+				}
+			create_building={
+				building="building_rye_farm"
+				level=5
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_privately_owned" "pm_tools" "pm_sugar_beets"}
+				}
+		}
+	}
+	s:STATE_MAZOVIA={
+		region_state:RUS={
+			create_building={
+				building="building_sweets_industry"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_base_sweets" "pm_hand_made_sweets_industry" "pm_no_drinks_sweets_industry" "pm_privately_owned_industry"}
+				}
+			create_building={
+				building="building_rye_farm"
+				level=3
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_privately_owned" "pm_tools" "pm_sugar_beets"}
+				}
+			create_building={
+				building="building_housing"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_housing_base_tenants" "pm_housing_no_apartments" "pm_housing_no_palaces" "pm_housing_no_canalisation" "pm_housing_wood_heating" "pm_housing_no_electricity" "pm_privately_owned_industry"}
+				}
+		}
+	}
+	s:STATE_BOHEMIA={
+		region_state:AUS={
+			create_building={
+				building="building_housing"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_housing_base_tenants" "pm_housing_no_apartments" "pm_housing_no_palaces" "pm_housing_no_canalisation" "pm_housing_wood_heating" "pm_housing_no_electricity" "pm_privately_owned_industry"}
+				}
+		}
+	}
+	s:STATE_KIEV={
+		region_state:RUS={
+			create_building={
+				building="building_sweets_industry"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_base_sweets" "pm_hand_made_sweets_industry" "pm_no_drinks_sweets_industry" "pm_privately_owned_industry"}
+				}
+			create_building={
+				building="building_housing"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_housing_base_tenants" "pm_housing_no_apartments" "pm_housing_no_palaces" "pm_housing_no_canalisation" "pm_housing_wood_heating" "pm_housing_no_electricity" "pm_privately_owned_industry"}
+				}
+		}
+	}
+	s:STATE_MOSCOW={
+		region_state:RUS={
+			create_building={
+				building="building_sweets_industry"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_base_sweets" "pm_hand_made_sweets_industry" "pm_no_drinks_sweets_industry" "pm_privately_owned_industry"}
+				}
+			create_building={
+				building="building_housing"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_housing_base_tenants" "pm_housing_no_apartments" "pm_housing_palaces" "pm_housing_no_canalisation" "pm_housing_wood_heating" "pm_housing_no_electricity" "pm_privately_owned_industry"}
+				}
+		}
+	}
+	s:STATE_INGRIA={
+		region_state:RUS={
+			create_building={
+				building="building_housing"
+				level=3
+				reserves=1
+				activate_production_methods={ "pm_housing_base_tenants" "pm_housing_apartments" "pm_housing_no_palaces" "pm_housing_no_canalisation" "pm_housing_wood_heating" "pm_housing_no_electricity" "pm_privately_owned_industry"}
+				}
+		}
+	}
+	s:STATE_GUANGDONG={
+		region_state:CHI={
+			create_building={
+				building="building_sweets_industry"
+				level=5
+				reserves=1
+				activate_production_methods={ "pm_base_sweets" "pm_hand_made_sweets_industry" "pm_no_drinks_sweets_industry" "pm_privately_owned_industry"}
+				}
+		}
+	}
+	s:STATE_BEIJING={
+		region_state:CHI={
+			create_building={
+				building="building_housing"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_housing_base_tenants" "pm_housing_apartments" "pm_housing_palaces" "pm_housing_no_canalisation" "pm_housing_wood_heating" "pm_housing_no_electricity" "pm_privately_owned_industry"}
+				}
+		}
+	}
+	s:STATE_SHANDONG={
+		region_state:CHI={
+			create_building={
+				building="building_housing"
+				level=5
+				reserves=1
+				activate_production_methods={ "pm_housing_base_tenants" "pm_housing_no_apartments" "pm_housing_no_palaces" "pm_housing_no_canalisation" "pm_housing_wood_heating" "pm_housing_no_electricity" "pm_privately_owned_industry"}
+				}
+		}
+	}
+	s:STATE_SICHUAN={
+		region_state:CHI={
+			create_building={
+				building="building_housing"
+				level=4
+				reserves=1
+				activate_production_methods={ "pm_housing_base_tenants" "pm_housing_no_apartments" "pm_housing_no_palaces" "pm_housing_no_canalisation" "pm_housing_wood_heating" "pm_housing_no_electricity" "pm_privately_owned_industry"}
+				}
+		}
+	}
+	s:STATE_NANJING={
+		region_state:CHI={
+			create_building={
+				building="building_housing"
+				level=5
+				reserves=1
+				activate_production_methods={ "pm_housing_base_tenants" "pm_housing_no_apartments" "pm_housing_no_palaces" "pm_housing_no_canalisation" "pm_housing_wood_heating" "pm_housing_no_electricity" "pm_privately_owned_industry"}
+				}
+		}
+	}
+	s:STATE_CHUBU={
+		region_state:JAP={
+			create_building={
+				building="building_sweets_industry"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_base_sweets" "pm_hand_made_sweets_industry" "pm_no_drinks_sweets_industry" "pm_privately_owned_industry"}
+				}
+		}
+	}
+	s:STATE_RIO_DE_JANEIRO={
+		region_state:BRZ={
+			create_building={
+				building="building_sweets_industry"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_base_sweets" "pm_hand_made_sweets_industry" "pm_no_drinks_sweets_industry" "pm_privately_owned_industry"}
+				}
+		}
+	}
+	s:STATE_GEORGIA={
+		region_state:USA={
+			create_building={
+				building="building_sweets_industry"
+				level=3
+				reserves=1
+				activate_production_methods={ "pm_base_sweets" "pm_hand_made_sweets_industry" "pm_no_drinks_sweets_industry" "pm_privately_owned_industry"}
+				}
+		}
+	}
+	s:STATE_VIRGINIA={
+		region_state:USA={
+			create_building={
+				building="building_sweets_industry"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_base_sweets" "pm_hand_made_sweets_industry" "pm_no_drinks_sweets_industry" "pm_privately_owned_industry"}
+				}
+		}
+	}
+	s:STATE_NEW_YORK={
+		region_state:USA={
+			create_building={
+				building="building_sweets_industry"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_base_sweets" "pm_hand_made_sweets_industry" "pm_no_drinks_sweets_industry" "pm_privately_owned_industry"}
+				}
+			create_building={
+				building="building_housing"
+				level=3
+				reserves=1
+				activate_production_methods={ "pm_housing_base_tenants" "pm_housing_no_apartments" "pm_housing_no_palaces" "pm_housing_no_canalisation" "pm_housing_wood_heating" "pm_housing_no_electricity" "pm_privately_owned_industry"}
+				}
+		}
+	}
+	s:STATE_PENNSYLVANIA={
+		region_state:USA={
+			create_building={
+				building="building_sweets_industry"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_base_sweets" "pm_hand_made_sweets_industry" "pm_no_drinks_sweets_industry" "pm_privately_owned_industry"}
+				}
+		}
+	}
+	s:STATE_CHIAPAS={
+		region_state:MEX={
+			create_building={
+				building="building_sweets_industry"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_base_sweets" "pm_hand_made_sweets_industry" "pm_no_drinks_sweets_industry" "pm_privately_owned_industry"}
+				}
+		}
+	}
+	}
+}

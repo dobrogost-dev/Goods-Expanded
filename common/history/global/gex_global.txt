@@ -1,0 +1,12 @@
+GLOBAL = {
+	every_country = {
+		trigger_event = {
+			id = GE_obsessions_events.1 #Add Cultural Obsessions
+		}
+	}
+	every_country = {
+		trigger_event = {
+			id = GE_obsessions_events.2 #Add Buildings
+		}
+	}
+}

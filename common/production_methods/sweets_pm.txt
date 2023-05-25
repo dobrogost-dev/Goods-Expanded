@@ -1,0 +1,237 @@
+pm_base_sweets = {
+		texture = "gfx/interface/icons/production_method_icons/sweeteners.dds"
+	
+	pollution_generation = 5
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_sugar_add = 20 # x30 = 600
+
+			building_output_sweets_add = 25 # x50 = 1250
+
+		}
+
+		level_scaled = {
+			#profit = 650
+			building_employment_laborers_add = 3300
+			building_employment_shopkeepers_add = 200
+		}
+	}
+}
+pm_flavoured_sweets = {
+		texture = "gfx/interface/icons/production_method_icons/flavour.dds"
+	
+	pollution_generation = 5
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_sugar_add = 10 # x30 = 300
+			building_input_fruit_add = 10 # x30 = 300
+
+			building_output_sweets_add = 30 # x50 = 1500
+
+		}
+
+		level_scaled = {
+			#profit = 900
+			building_employment_laborers_add = 3800
+			building_employment_shopkeepers_add = 200
+
+		}
+	}
+}
+pm_coloured_sweets = {
+		texture = "gfx/interface/icons/production_method_icons/synthetic_dyes.dds"
+	
+	pollution_generation = 5
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_sugar_add = 15 # x30 = 450
+			building_input_dye_add = 5 # x40 = 200
+
+			building_output_sweets_add = 30 # 50 = 1500
+			
+		}
+
+		level_scaled = {
+			#profit = 850
+			building_employment_laborers_add = 3800
+			building_employment_shopkeepers_add = 200
+
+		}
+	}
+}
+
+pm_bubble_gum = {
+		texture = "gfx/interface/icons/production_method_icons/unused/crude_paper.dds"
+	
+	pollution_generation = 5
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_sugar_add = 15 # x30 = 450
+			building_input_rubber_add = 5 # x40 = 200
+
+			building_output_sweets_add = 30 # 50 = 2250
+			
+		}
+
+		level_scaled = {
+			#profit = 850
+			building_employment_laborers_add = 3800
+			building_employment_shopkeepers_add = 200
+
+		}
+	}
+}
+
+pm_hand_made_sweets_industry = {
+		texture = "gfx/interface/icons/production_method_icons/houseware_plastics.dds"
+	
+	pollution_generation = 5
+
+	building_modifiers = {
+		workforce_scaled = {
+		}
+
+		level_scaled = {
+
+		}
+	}
+}
+pm_special_tools_sweets_industry = {
+		texture = "gfx/interface/icons/production_method_icons/sweets_tools.dds"
+	
+	pollution_generation = 5
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_tools_add = 10 # x40 = 400
+
+			building_output_sweets_add = 10 # x50 = 500
+			
+		}
+
+		level_scaled = {
+			#profit = 100
+			building_employment_laborers_add = -1000
+		}
+	}
+	unlocking_technologies = {
+		mechanical_tools
+	}
+}
+pm_automation_sweets_industry = {
+		texture = "gfx/interface/icons/production_method_icons/assembly_lines.dds"
+	
+	pollution_generation = 5
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_engines_add = 10 # x60 = 600
+
+			building_output_sweets_add = 20 # x50 = 1000
+			
+		}
+
+		level_scaled = {
+			#profit = 400
+			building_employment_laborers_add = -3000
+			building_employment_machinists_add = 1000
+			building_employment_engineers_add = 200
+		}
+	}
+	unlocking_technologies = {
+		conveyors
+	}
+
+}
+pm_no_drinks_sweets_industry = {
+		texture = "gfx/interface/icons/production_method_icons/no_automation.dds"
+	
+	pollution_generation = 5
+
+	building_modifiers = {
+		workforce_scaled = {
+		}
+
+		level_scaled = {
+		}
+	}
+}
+pm_sweet_drinks_sweets_industry = {
+		texture = "gfx/interface/icons/production_method_icons/vaccum_brine_electrolysis.dds"
+	
+	pollution_generation = 5
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_sugar_add = 5 # x30 = 150
+			building_input_fruit_add = 5 # x30 = 150
+			building_input_glass_add = 10 # x40 = 400
+			
+			building_output_sweets_add = 25 # x50 = 1250
+		}
+
+		level_scaled = {
+			#profit = 550
+			building_employment_machinists_add = 800
+			building_employment_shopkeepers_add = 200
+		}
+	}
+	unlocking_technologies = {
+		automatic_bottle_blowers
+	}
+}
+pm_coca_cola_sweets_industry = {
+		texture = "gfx/interface/icons/production_method_icons/automated_bottle_blowers.dds"
+	
+	pollution_generation = 5
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_sugar_add = 10 # x30 = 300
+			building_input_glass_add = 10 # x40 = 400
+			building_input_dye_add = 5 # x40 = 200
+			
+			building_output_sweets_add = 30 # x50 = 1500
+		}
+
+		level_scaled = {
+			#profit = 600
+			building_employment_machinists_add = 800
+			building_employment_shopkeepers_add = 200
+		}
+	}
+	unlocking_technologies = {
+		automatic_bottle_blowers
+	}
+}
+
+pm_publicly_traded_building_sweets_industry = {
+	texture = "gfx/interface/icons/production_method_icons/publicly_traded.dds"
+
+	unlocking_production_methods = {
+		pm_hand_made_sweets_industry
+		pm_automation_sweets_industry
+	}
+	
+	disallowing_laws = {
+		law_command_economy
+		law_council_republic
+	}
+
+	unlocking_technologies = {
+		mutual_funds
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_capitalists_add = 150
+		}
+		unscaled = {
+			building_capitalists_shares_add = 5
+		}
+	}
+}

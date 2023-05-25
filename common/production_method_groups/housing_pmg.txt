@@ -1,0 +1,55 @@
+﻿pmg_ownership_capital_building_housing = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	production_methods = {
+		pm_privately_owned_industry
+		pm_publicly_traded_building_housing
+		pm_government_run_industry
+		pm_worker_cooperative_industry
+	}
+}
+pmg_base_building_housing_tenants = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_housing_base_tenants
+		pm_housing_socialist_tenants
+	}
+}
+pmg_base_building_housing_apartments = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_housing_no_apartments
+		pm_housing_apartments
+		pm_housing_heavy_apartments
+	}
+}
+pmg_base_building_housing_palaces = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_housing_no_palaces
+		pm_housing_palaces
+		pm_housing_heavy_palaces
+	}
+}
+pmg_base_building_housing_canalisation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_housing_no_canalisation
+		pm_housing_canalisation
+	}
+}
+pmg_base_building_housing_heating = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_housing_wood_heating
+		pm_housing_coal_heating
+		pm_housing_oil_heating
+		pm_housing_electricity_heating
+	}
+}
+pmg_base_building_housing_electricity = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
+		pm_housing_no_electricity
+		pm_housing_electrified
+	}
+}

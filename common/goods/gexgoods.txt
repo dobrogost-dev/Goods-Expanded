@@ -1,0 +1,105 @@
+﻿tenant = {
+	texture = "gfx/interface/icons/goods_icons/tenant.dds"
+	cost = 30
+	category = staple
+	tradeable = no
+
+	prestige_factor = 2
+	
+	consumption_tax_cost = 300
+}
+
+apartment = {
+	texture = "gfx/interface/icons/goods_icons/apartment.dds"
+	cost = 50
+	category = staple
+	tradeable = no
+
+	prestige_factor = 4
+	
+	consumption_tax_cost = 200
+}
+
+palace = {
+	texture = "gfx/interface/icons/goods_icons/palace.dds"
+	cost = 150
+	category = luxury
+	tradeable = no
+
+	prestige_factor = 10
+	
+	consumption_tax_cost = 100
+}
+
+dairy = {
+	texture = "gfx/interface/icons/goods_icons/dairy.dds"
+	cost = 30
+	category = staple
+
+	prestige_factor = 4
+	
+	consumption_tax_cost = 300
+}
+
+beer = {
+	texture = "gfx/interface/icons/goods_icons/beer.dds"
+	cost = 40
+	category = luxury
+
+	obsession_chance = 1.5
+	prestige_factor = 5
+	
+	consumption_tax_cost = 100
+}
+
+sweets = {
+	texture = "gfx/interface/icons/goods_icons/sweets.dds"
+	cost = 50
+	category = luxury
+
+	obsession_chance = 2.0
+	prestige_factor = 5
+	
+	traded_quantity = 15
+	convoy_cost_multiplier = 0.75
+	
+	consumption_tax_cost = 100
+}
+
+carpet = {
+	texture = "gfx/interface/icons/goods_icons/carpet.dds"
+	cost = 60
+	category = luxury
+
+	obsession_chance = 1.0
+	prestige_factor = 5
+	
+	consumption_tax_cost = 100
+}
+
+copper = {
+	texture = "gfx/interface/icons/goods_icons/copper.dds"
+	cost = 40
+	category = industrial
+	
+	prestige_factor = 5
+}
+
+cocoa = {
+	texture = "gfx/interface/icons/goods_icons/cocoa.dds"
+	cost = 30
+	category = luxury
+	
+	prestige_factor = 2
+	convoy_cost_multiplier = 0.75
+}
+
+chocolate = {
+	texture = "gfx/interface/icons/goods_icons/coffee.dds"
+	cost = 40
+	category = luxury
+	
+	obsession_chance = 1.5
+	prestige_factor = 4
+	convoy_cost_multiplier = 0.75
+}

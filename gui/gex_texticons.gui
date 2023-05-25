@@ -1,0 +1,90 @@
+texticon = {
+	icon = tenant
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/tenant.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+texticon = {
+	icon = apartment
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/apartment.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+texticon = {
+	icon = palace
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/palace.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+texticon = {
+	icon = dairy
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/dairy.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+texticon = {
+	icon = beer
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/beer.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+texticon = {
+	icon = sweets
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/sweets.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+texticon = {
+	icon = carpet
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/carpet.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+texticon = {
+	icon = copper
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/copper.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+texticon = {
+	icon = cocoa
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/cocoa.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+texticon = {
+	icon = chocolate
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/chocolate.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}

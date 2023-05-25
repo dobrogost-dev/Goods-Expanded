@@ -1,0 +1,3 @@
+﻿default_city = {
+	building_housing = {"european_city_building_mid_01_mesh"}
+	}

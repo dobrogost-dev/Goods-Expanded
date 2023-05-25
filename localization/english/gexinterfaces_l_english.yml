@@ -1,0 +1,10 @@
+﻿l_english:
+trade_route_export_lens_option_sweets_tooltip:0 "Establish a $sweets$ export trade route"
+trade_route_export_lens_option_dairy_tooltip:0 "Establish a $dairy$ export trade route"
+trade_route_export_lens_option_beer_tooltip:0 "Establish a $beer$ export trade route"
+trade_route_export_lens_option_carpet_tooltip:0 "Establish a $carpet$ export trade route"
+
+trade_route_import_lens_option_sweets_tooltip:0 "Establish a $sweets$ export trade route"
+trade_route_import_lens_option_dairy_tooltip:0 "Establish a $dairy$ export trade route"
+trade_route_import_lens_option_beer_tooltip:0 "Establish a $beer$ export trade route"
+trade_route_import_lens_option_carpet_tooltip:0 "Establish a $carpet$ export trade route"

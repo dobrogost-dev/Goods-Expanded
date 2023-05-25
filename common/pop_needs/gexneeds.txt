@@ -1,0 +1,174 @@
+popneed_intoxicants = {
+	default = liquor
+
+	entry = {
+		goods = liquor
+		
+		weight = 1
+		max_weight = 3.0 # Maxes out at 60% of supply share
+		min_weight = 0.0
+	}
+	
+	entry = {
+		goods = tobacco
+		
+		weight = 1
+		max_weight = 3.0 # Maxes out at 60% of supply share
+		min_weight = 0.0
+	}
+	
+	entry = {
+		goods = opium
+		
+		weight = 1
+		max_weight = 3.0 # Maxes out at 60% of supply share
+		min_weight = 0.0
+	}
+	entry = {
+		goods = beer
+		
+		weight = 1
+		max_weight = 3.0 # Maxes out at 60% of supply share
+		min_weight = 0.0
+	}
+}
+
+popneed_basic_food = {
+	default = grain
+
+	entry = {
+		goods = grain
+		
+		weight = 1
+		max_weight = 4.0 # Maxes out at 80% of supply share
+		min_weight = 0.0
+	}
+	
+	entry = {
+		goods = fish
+		
+		weight = 1
+		max_weight = 4.0 # Maxes out at 80% of supply share
+		min_weight = 0.0
+	}
+	
+	entry = {
+		goods = dairy
+		
+		weight = 1
+		max_weight = 4.0 # Maxes out at 80% of supply share
+		min_weight = 0.0
+	}
+	
+	entry = {
+		goods = meat
+		
+		weight = 0.5
+		max_weight = 2.0 # Maxes out at 80% of supply share
+		min_weight = 0.0
+	}
+	
+	entry = {
+		goods = fruit
+		
+		weight = 0.5
+		max_weight = 2.0 # Maxes out at 80% of supply share
+		min_weight = 0.0
+	}
+	
+	entry = {
+		goods = groceries
+		
+		weight = 1
+		max_weight = 4.0 # Maxes out at 80% of supply share
+		min_weight = 0.0
+	}
+}
+
+popneed_luxury_food = {
+	default = meat
+	
+	entry = {
+		goods = meat
+		
+		weight = 1
+		max_weight = 2.0 # Maxes out at 40% of supply share
+		min_weight = 0.0
+	}
+	
+	entry = {
+		goods = dairy
+		
+		weight = 1
+		max_weight = 4.0 # Maxes out at 80% of supply share
+		min_weight = 0.0
+	}
+	
+	entry = {
+		goods = fruit
+		
+		weight = 1
+		max_weight = 2.0 # Maxes out at 40% of supply share
+		min_weight = 0.0
+	}
+	
+	entry = {
+		goods = groceries
+		
+		weight = 1
+		max_weight = 2.0 # Maxes out at 40% of supply share
+		min_weight = 0.0
+	}
+	
+	entry = {
+		goods = sugar
+		
+		weight = 0.5
+		max_weight = 2.0 # Maxes out at 80% of supply share
+		min_weight = 0.0
+	}
+	
+}
+
+popneed_luxury_items = {
+	default = luxury_clothes
+	
+	entry = {
+		goods = luxury_clothes
+		
+		weight = 1
+		max_weight = 2.0 # Maxes out at 40% of supply share
+		min_weight = 0.25
+	}
+	
+	entry = {
+		goods = luxury_furniture
+		
+		weight = 1
+		max_weight = 2.0 # Maxes out at 40% of supply share
+		min_weight = 0.25
+	}
+	
+	entry = {
+		goods = porcelain
+		
+		weight = 1
+		max_weight = 2.0 # Maxes out at 40% of supply share
+		min_weight = 0.25
+	}
+	
+	entry = {
+		goods = radios
+		
+		weight = 1
+		max_weight = 2.0 # Maxes out at 40% of supply share
+		min_weight = 0.0
+	}
+	entry = {
+		goods = carpet
+		
+		weight = 1
+		max_weight = 2.0 # Maxes out at 40% of supply share
+		min_weight = 0.0
+	}
+}

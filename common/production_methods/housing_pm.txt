@@ -1,0 +1,353 @@
+﻿pm_housing_base_tenants = {
+		texture = "gfx/interface/icons/goods_icons/tenant.dds"
+	
+	pollution_generation = 5
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_hardwood_add = 15 # x40 = 600
+
+			building_output_tenant_add = 30 # x30 = 900
+
+		}
+
+		level_scaled = {
+			#profit = 300
+			building_employment_laborers_add = 900
+			building_employment_clerks_add = 100
+
+		}
+	}
+		ai_value = 0
+}
+pm_housing_socialist_tenants = {
+		texture = "gfx/interface/icons/goods_icons/tenant_socialist.dds"
+	
+	pollution_generation = 5
+
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_hardwood_add = 20 # x40 = 800
+
+			building_output_tenant_add = 50 # x30 = 1500
+
+		}
+		
+		level_scaled = {
+			#profit = 700
+			building_employment_laborers_add = 800
+			building_employment_clerks_add = 200
+		}
+	}
+	unlocking_technologies = {	
+			socialism
+    }
+	ai_value = 10000
+}
+pm_housing_no_apartments = {
+		texture = "gfx/interface/icons/goods_icons/no_apartment.dds"
+	
+	pollution_generation = 5
+
+	building_modifiers = {
+		workforce_scaled = {
+				building_input_hardwood_add = 10 # x40 = 400
+				
+				building_output_tenant_add = 20 # x30 = 600
+		}
+
+		level_scaled = {
+			#profit = 200
+			building_employment_laborers_add = 900
+			building_employment_clerks_add = 100
+		}
+	}
+}
+pm_housing_apartments = {
+		texture = "gfx/interface/icons/goods_icons/apartment.dds"
+	
+	pollution_generation = 5
+
+	building_modifiers = {
+		workforce_scaled = {
+				building_input_steel_add = 5 # x50 = 250
+				building_input_glass_add = 5 # x40 = 200
+				building_input_hardwood_add = 5 # x40 = 200
+
+				building_output_tenant_add = 10 # x30 = 450
+				building_output_apartment_add = 15 # x50 = 750
+		}
+
+		level_scaled = {
+			#profit = 550
+			building_employment_laborers_add = 500
+			building_employment_machinists_add = 400
+			building_employment_clerks_add = 100
+		}
+	}
+}
+pm_housing_heavy_apartments = {
+		texture = "gfx/interface/icons/goods_icons/apartment_up.dds"
+	
+	pollution_generation = 5
+
+	building_modifiers = {
+		workforce_scaled = {
+				building_input_steel_add = 10 # x50 = 500
+				building_input_glass_add = 10 # x40 = 400
+
+				building_output_apartment_add = 30 # x50 = 1500
+		}
+
+		level_scaled = {
+			#profit = 600
+			building_employment_machinists_add = 900
+			building_employment_clerks_add = 100
+		}
+	}
+}
+pm_housing_no_palaces = {
+		texture = "gfx/interface/icons/goods_icons/no_palace.dds"
+	
+	pollution_generation = 5
+
+	building_modifiers = {
+		workforce_scaled = {
+				building_input_hardwood_add = 10 # x40 = 400
+				
+				building_output_tenant_add = 20 # x30 = 600
+		}
+
+		level_scaled = {
+			#profit = 200
+			building_employment_laborers_add = 900
+			building_employment_clerks_add = 100
+		}
+	}
+}
+pm_housing_palaces = {
+		texture = "gfx/interface/icons/goods_icons/palace.dds"
+	
+	pollution_generation = 5
+
+	building_modifiers = {
+		workforce_scaled = {
+				building_input_steel_add = 5 # x50 = 250
+				building_input_glass_add = 5 # x40 = 200
+				building_input_silk_add = 2 # x40 = 80
+				building_input_fine_art_add = 1 # x200 = 200
+				building_input_hardwood_add = 5 # x40 = 200
+
+				building_output_tenant_add = 10 # x30 = 300
+				building_output_palace_add = 8 # x150 = 1200
+
+		}
+
+		level_scaled = {
+			#profit = 570
+			building_employment_laborers_add = 450
+			building_employment_clerks_add = 50
+			building_employment_engineers_add = 400
+			building_employment_bureaucrats_add = 100
+
+		}
+	}
+}
+pm_housing_heavy_palaces = {
+		texture = "gfx/interface/icons/goods_icons/palace_up.dds"
+	
+	pollution_generation = 5
+
+	building_modifiers = {
+		workforce_scaled = {
+				building_input_steel_add = 10 # x50 = 500
+				building_input_glass_add = 10 # x40 = 400
+				building_input_silk_add = 4 # x40 = 160
+				building_input_fine_art_add = 2 # x200 = 400
+
+				building_output_palace_add = 16 # x150 = 2400
+
+		}
+
+		level_scaled = {
+			#profit = 940
+			building_employment_engineers_add = 800
+			building_employment_bureaucrats_add = 200
+		}
+	}
+}
+pm_housing_no_canalisation = {
+		texture = "gfx/interface/icons/production_method_icons/no_automation.dds"
+	
+	pollution_generation = 5
+
+	building_modifiers = {
+		workforce_scaled = {
+		}
+
+		level_scaled = {
+		}
+	}
+	ai_value = 0
+}
+pm_housing_canalisation = {
+		texture = "gfx/interface/icons/production_method_icons/automatic_irrigation.dds"
+	
+	pollution_generation = 5
+
+	building_modifiers = {
+		workforce_scaled = {
+				building_input_tools_add = 5 # x40 = 200
+				
+				building_output_services_add = 25 # x30 = 750
+
+
+		}
+		level_scaled = {
+				#profit = 550
+				building_employment_engineers_add = 300
+		}
+	}
+		unlocking_technologies = {	
+			modern_sewerage
+    }
+	ai_value = 10000
+}
+pm_housing_wood_heating = {
+		texture = "gfx/interface/icons/goods_icons/wood.dds"
+	
+	pollution_generation = 5
+
+	building_modifiers = {
+		workforce_scaled = {
+				building_input_wood_add = 5 # x20 = 100
+		}
+		level_scaled = {
+				#profit = -100	
+				building_employment_laborers_add = 100
+		}
+	}
+}
+pm_housing_coal_heating = {
+		texture = "gfx/interface/icons/goods_icons/coal.dds"
+	
+	pollution_generation = 5
+
+	building_modifiers = {
+		workforce_scaled = {
+				building_input_coal_add = 5 # x30 = 150
+		}
+		level_scaled = {
+				#profit = -150
+				building_employment_laborers_add = 100
+				building_throughput_mult = 0.002
+		}
+				unscaled = {
+					building_throughput_mult = 0.1
+		}
+	}
+}
+
+pm_housing_oil_heating = {
+		texture = "gfx/interface/icons/goods_icons/oil.dds"
+	
+	pollution_generation = 5
+
+	building_modifiers = {
+		workforce_scaled = {
+				building_input_oil_add = 5 # x40 = 200
+		}
+		level_scaled = {
+				#profit = -200
+				building_employment_machinists_add = 50
+				building_throughput_mult = 0.005
+		}
+		unscaled = {
+					building_throughput_mult = 0.15
+		}
+	}
+	unlocking_technologies = {	
+			combustion_engine
+    }
+}
+
+pm_housing_electricity_heating = {
+		texture = "gfx/interface/icons/goods_icons/electricity.dds"
+	
+	pollution_generation = 5
+
+	building_modifiers = {
+		workforce_scaled = {
+				building_input_electricity_add = 5 # x30 = 150
+		}
+		level_scaled = {
+				#profit = -150	
+				building_employment_engineers_add = 50
+				building_throughput_mult = 0.003
+		}
+		unscaled = {
+					building_throughput_mult = 0.12
+		}
+	}
+		unlocking_technologies = {	
+			electrical_generation
+    }
+}
+pm_housing_no_electricity = {
+		texture = "gfx/interface/icons/production_method_icons/no_automation.dds"
+	
+	pollution_generation = 5
+
+	building_modifiers = {
+		workforce_scaled = {
+		}
+		level_scaled = {
+		}
+	}
+		ai_value = 0
+}
+pm_housing_electrified = {
+		texture = "gfx/interface/icons/production_method_icons/electric_streetlights.dds"
+	
+	pollution_generation = 5
+
+	building_modifiers = {
+		workforce_scaled = {
+				building_input_electricity_add = 10 # x30 = 300
+				building_output_services_add = 30 # x30 = 900
+		}
+		level_scaled = {
+				#profits = 600
+				building_employment_engineers_add = 500
+				state_urbanization_add = 5
+		}
+	}
+		unlocking_technologies = {	
+			electrical_generation
+    }
+		ai_value = 10000
+}
+
+pm_publicly_traded_building_housing = {
+	texture = "gfx/interface/icons/production_method_icons/publicly_traded.dds"
+
+	disallowing_laws = {
+		law_command_economy
+		law_council_republic
+	}
+
+	unlocking_technologies = {
+		mutual_funds
+	}
+
+	building_modifiers = {
+		level_scaled = {
+			building_employment_capitalists_add = 150
+		}
+		unscaled = {
+			building_capitalists_shares_add = 5
+		}
+	}
+}
+
+

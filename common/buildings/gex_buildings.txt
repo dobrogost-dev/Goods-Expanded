@@ -1,0 +1,123 @@
+﻿building_housing = {
+	building_group = bg_housing
+	texture = "gfx/interface/icons/achievements/institutional.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	ai_value = 1000
+	
+	production_method_groups = {
+		pmg_base_building_housing_tenants
+		pmg_base_building_housing_apartments
+		pmg_base_building_housing_palaces
+		pmg_base_building_housing_canalisation
+		pmg_base_building_housing_electricity
+		pmg_base_building_housing_heating
+		pmg_ownership_capital_building_housing
+	}
+	
+	required_construction = construction_cost_high
+}
+
+building_sweets_industry = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/sweets_industry.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	ai_value = 1000
+
+	production_method_groups = {
+		pmg_base_sweets_industry
+		pmg_automation_building_sweets_industry
+		pmg_drinks_sweets_industry
+		pmg_ownership_capital_building_sweets_industry
+	}
+	
+	required_construction = construction_cost_high
+}
+
+building_food_industry = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/food_industry.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	unlocking_technologies = {
+		manufacturies
+	}
+
+	production_method_groups = {
+		pmg_base_building_food_industry
+		pmg_canning
+		pmg_distillery
+		pmg_automation_building_food_industry
+		pmg_brewery
+		pmg_ownership_capital_building_food_industry
+	}
+
+	required_construction = construction_cost_high
+	
+}
+
+building_textile_mills = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/textile_industry.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	unlocking_technologies = {
+		manufacturies
+	}
+
+	production_method_groups = {
+		pmg_base_building_textile_mills
+		pmg_luxury_building_textile_mills
+		pmg_automation_building_textile_mills
+		pmg_carpet_making
+		pmg_ownership_capital_building_textile_mills
+	}
+	
+	required_construction = construction_cost_high
+}
+
+building_cocoa_plantation = {
+	building_group = bg_cocoa_plantations
+	texture = "gfx/interface/icons/building_icons/coffee_plantation.dds"
+	required_construction = construction_cost_low
+
+	unlocking_technologies = {
+		enclosure
+	}
+
+	city_type = farm
+	levels_per_mesh = 5
+	
+	production_method_groups = {
+		pmg_base_building_cocoa_plantation
+		pmg_train_automation_building_cocoa_plantation
+		pmg_ownership_land_building_cocoa_plantation
+	}
+}
+
+ 
+building_copper_mine = {
+	building_group = bg_copper_mining
+	texture = "gfx/interface/icons/building_icons/iron_mine.dds"
+	city_type = mine
+	levels_per_mesh = 5
+	required_construction = construction_cost_medium
+	terrain_manipulator = mining
+	
+	unlocking_technologies = {
+		shaft_mining
+	}
+
+	production_method_groups = {
+		pmg_mining_equipment_building_copper_mine
+		pmg_explosives_building_copper_mine
+		pmg_steam_automation_building_copper_mine
+		pmg_train_automation_building_copper_mine
+		pmg_ownership_capital_building_copper_mine
+	}
+ }

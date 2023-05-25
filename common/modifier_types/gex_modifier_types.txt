@@ -1,0 +1,52 @@
+﻿building_output_tenant_add = {
+	good = yes
+	percent = no
+}
+building_output_apartment_add = {
+	good = yes
+	percent = no
+}
+building_output_palace_add = {
+	good = yes
+	percent = no
+}
+building_output_dairy_add = {
+	good = yes
+	percent = no
+}
+building_output_beer_add = {
+	good = yes
+	percent = no
+}
+building_output_sweets_add = {
+	good = yes
+	percent = no
+}
+building_output_carpet_add = {
+	good = yes
+	percent = no
+}
+building_input_fine_art_add = {
+	good = yes
+	percent = no
+}
+building_input_copper_add = {
+	good = yes
+	percent = no
+}
+building_output_copper_add = {
+	good = yes
+	percent = no
+}
+building_input_cocoa_add = {
+	good = yes
+	percent = no
+}
+building_output_cocoa_add = {
+	good = yes
+	percent = no
+}
+building_output_chocolate_add = {
+	good = yes
+	percent = no
+}

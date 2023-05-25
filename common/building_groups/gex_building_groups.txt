@@ -1,0 +1,23 @@
+﻿bg_housing = {
+	parent_group = bg_private_infrastructure
+	
+	economy_of_scale = yes
+	
+	infrastructure_usage_per_level = 1
+	
+	default_building = building_housing
+}
+
+bg_copper_mining = {
+	parent_group = bg_mining
+	
+	default_building = building_copper_mine
+
+	can_use_slaves = yes
+}
+
+bg_cocoa_plantations = {
+	parent_group = bg_plantations
+	
+	default_building = building_cocoa_plantation
+}

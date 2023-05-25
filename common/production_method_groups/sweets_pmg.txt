@@ -1,0 +1,30 @@
+pmg_base_sweets_industry = {
+	production_methods = {
+		pm_base_sweets
+		pm_flavoured_sweets
+		pm_coloured_sweets
+		pm_bubble_gum
+	}
+}
+pmg_automation_building_sweets_industry = {
+	production_methods = {
+		pm_hand_made_sweets_industry
+		pm_special_tools_sweets_industry
+		pm_automation_sweets_industry
+	}
+}
+pmg_drinks_sweets_industry = {
+	production_methods = {
+		pm_no_drinks_sweets_industry
+		pm_sweet_drinks_sweets_industry
+		pm_coca_cola_sweets_industry
+	}
+}
+pmg_ownership_capital_building_sweets_industry = {
+	production_methods = {
+		pm_privately_owned_industry
+		pm_publicly_traded_building_sweets_industry
+		pm_government_run_industry
+		pm_worker_cooperative_industry
+	}
+}

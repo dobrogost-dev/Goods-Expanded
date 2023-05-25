@@ -1,0 +1,10 @@
+﻿l_polish:
+trade_route_export_lens_option_sweets_tooltip:0 "$sweets$ – wytycz szlak eksportowy"
+trade_route_export_lens_option_dairy_tooltip:0 "$dairy$ – wytycz szlak eksportowy"
+trade_route_export_lens_option_beer_tooltip:0 "$beer$ – wytycz szlak eksportowy"
+trade_route_export_lens_option_carpet_tooltip:0 "$carpet$ – wytycz szlak eksportowy"
+
+trade_route_import_lens_option_sweets_tooltip:0 "$sweets$ – wytycz szlak importowy"
+trade_route_import_lens_option_dairy_tooltip:0 "$dairy$ – wytycz szlak importowy"
+trade_route_import_lens_option_beer_tooltip:0 "$beer$ – wytycz szlak importowy"
+trade_route_import_lens_option_carpet_tooltip:0 "$carpet$ – wytycz szlak importowy"
