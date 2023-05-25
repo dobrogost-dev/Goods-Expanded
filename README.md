@@ -29,3 +29,6 @@ Plans for the future:
 Chocolate industry cocoa + sugar -> chocolate (more chocolate can be made by adding milk!)
 Jewelry
 Copper
+
+Steam link: 
+https://steamcommunity.com/sharedfiles/filedetails/?id=2883364720
